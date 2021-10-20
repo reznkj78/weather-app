@@ -1,0 +1,224 @@
+/* :root{
+    background-image: url('../img/img4.jpg');
+    background-size: cover;
+} */
+.body-style{
+    background-image: url('../img/img4.jpg');
+    background-color:   #40404087;
+    background-size:cover;
+    background-blend-mode:color-burn ;
+}
+.title-main-page{
+    font-family: Nahid;
+    color: #4bff00;
+}
+.first-page-title-container{
+    padding: 1em;
+    margin-top: 23%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  
+
+}
+.first-page-btn{
+   
+    
+    width: 40%;
+    border: none;
+    background-color: #1a54f9;
+    border-radius: 1em;
+    font-family: Nahid4;
+    padding: .3em;
+    color: #fff;
+}
+.first-page-btn:hover{
+background-color: #090942;
+}
+.first-page-description{
+    font-family: Vazir;
+    color: orange;
+    font-size: 1.3em;
+}
+.wheateher-situation{
+    display: flex;
+    flex-flow: row nowrap;
+justify-content: space-around;
+align-items: baseline;
+}
+.wheateher-situation p span{
+    color: #ff8936eb;
+}
+/* =========================================================================== */
+.c-nav{
+
+    background-color: #ff01eb21;
+    font-family: Vazir4;
+}
+
+.c-main{
+display: flex;
+}
+.c-aside{
+    background-color: #ffffff29;
+    color: aliceblue;
+    border-radius: 1em;
+    
+    padding: 1em;
+    position: sticky;
+    top: 0px;
+    height: 98vh;
+    flex-basis: 33%;
+}
+.c-main-content{
+    background-color: #ffffff47;
+margin-right: .3em;
+padding: 1em;
+border-radius: 1em;
+
+flex-basis: 65%;
+}
+
+
+.c-aside h3{
+    font-family: Vazir;
+    color: #4bff00;
+}
+
+label[name="select-language"]{
+    font-family: Nahid2;
+padding: 1em;
+color: #fff;
+width: 100%;
+padding-bottom: 0;
+padding-right: 0;
+margin-top: 7%;
+}
+
+label[name="select-language"] input{
+    margin-right: 2%;
+    font-family: Vazir;
+}
+.select-country{
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid rgb(36, 95, 255);
+    font-family: Vazir3;
+    background-color:#ffffff1a;
+    width: 98%;
+    border-radius: 3%;
+    padding: 2%;
+    
+}
+.select-city{
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid rgb(36, 95, 255);
+    font-family: Vazir3;
+    background-color:#ffffff1a;
+    width: 98%;
+    border-radius: 3%;
+    padding: 2%;
+    margin-top: 3%;
+}
+option{
+    background-color: #2727278f;
+    color: #090942;
+
+}
+.select-city:disabled{
+    cursor: not-allowed;
+}
+.search-box{
+    width: 98%;
+    position: relative;
+}
+.search-box input{
+width: 100%;
+color: #fff;
+border: none;
+font-family: Vazir3;
+border-radius: 3%;
+    padding: 2%;
+    background-color:#ffffff1a;
+    border-bottom: 2px solid rgb(255, 144, 17);
+  
+}
+.search-box input::placeholder{
+    /* color: #a5a5a5; */
+    color: #bbbbbb;
+}
+.iconify-search{
+    color: #ff5f42;
+    position: absolute;
+    top: 18%;
+    left: 3%;
+    font-size: 1.5em;
+    cursor: pointer;
+    z-index: 2;
+    background-color:#ffffff00 ;
+}
+.form-btn{
+    padding: 1%;
+    background-color: rgb(7, 138, 253) ;
+    color: #fff;
+    border: none;
+    border-radius: .3em;
+    cursor: pointer;
+    font-family: Nahid2;
+    cursor: pointer;
+    width: 98%;
+    margin-top: 13%;
+}
+.form-btn:hover{
+background-color: #06066ea4;
+}
+/* main context =============================================== */
+.c-main-content{
+font-family: Vazir;
+color: #bbbbbb;
+}
+.iconify-wheather-mood-container{
+    text-align: center;
+}
+.iconify-wheather-mood{
+    font-size: 4em;
+}
+
+.Geographical-coordinates{
+margin-bottom: 1em;
+    font-family:  Estedad;
+    margin-top: 4%;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+th{
+    background-color: #1818a22e;;
+    color: #fff;
+}
+
+tr{
+    border: 1px solid gray;
+}
+td{
+    background-color: #d2c14730;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+}
+/* ============================================ */
+@media only screen and (max-width: 768px){
+    .c-main{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+        }
+        .c-aside{
+           margin-bottom: 1em;
+            position: static;
+            height: fit-content;
+            
+        }
+} 
